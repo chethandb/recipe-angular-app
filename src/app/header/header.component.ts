@@ -4,4 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   templateUrl: 'header.component.html',
 })
-export class HeaderCoponent {}
+export class HeaderCoponent {
+  collapsed = true;
+}
